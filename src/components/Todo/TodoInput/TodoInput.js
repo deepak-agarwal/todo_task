@@ -4,6 +4,7 @@ import Button from '../../UI/Button/Button';
 import classes from  "./TodoInput.module.css"
 
 const TodoInput = (props) => {
+  //spread the props
 
   const [inputValue, setInputValue] = useState(props.edit ?  props.edit.value : "");  
   const [priorty, setPriorty] = useState("")
